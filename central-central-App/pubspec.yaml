@@ -1,0 +1,59 @@
+name: central_central_new
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI and icon support
+  font_awesome_flutter: ^10.7.0
+  # URL launching for web links
+  url_launcher: ^6.3.0
+  # File picking for note attachments
+  file_picker: ^8.1.2
+  # Calendar widget for todo page
+  table_calendar: ^3.1.2
+  # Date and time formatting
+  intl: ^0.20.2
+  # Sharing notes and files
+  share_plus: ^10.0.2
+  # Image picking for profile photos
+  image_picker: ^1.1.2
+  # Firebase dependencies for authentication, storage, and database
+  firebase_messaging: ^15.2.0
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.5.0
+  firebase_storage: ^12.3.3
+  firebase_auth: ^5.6.2
+  # Google Sign-In integration
+  google_sign_in: ^6.2.1
+  # File opening for notes
+  open_filex: ^4.5.0
+  # Local storage for settings and preferences
+  shared_preferences: ^2.3.2
+  # Rich text editor for note editing
+  flutter_quill: ^10.8.1
+  # QR code scanning
+  mobile_scanner: ^5.2.1
+  # QR code generation
+  qr_flutter: ^4.1.0
+  # Localization support (implicitly included by Flutter SDK)
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+dependency_overrides:
+  intl: 0.20.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
